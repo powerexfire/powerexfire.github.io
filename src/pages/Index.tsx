@@ -9,17 +9,19 @@ import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 
 const Index = () => (
-  <>
+  <div className="min-h-screen">
     <Navbar />
-    <HeroSection />
-    <AboutSection />
-    <ServicesSection />
-    <TestimonialsSection />
-    <ContactSection />
-    <LegalSection />
+    <main id="main-content">
+      <HeroSection />
+      <AboutSection />
+      <ServicesSection />
+      <TestimonialsSection />
+      <ContactSection />
+      <LegalSection />
+    </main>
     <Footer />
     <FloatingButtons />
-  </>
+  </div>
 );
 
 export default Index;
