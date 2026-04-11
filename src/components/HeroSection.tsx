@@ -26,7 +26,7 @@ const HeroSection = () => (
       <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-secondary-foreground/60">
         <span>✅ GST Registered</span>
         <span>✅ ISI/BIS Certified Products</span>
-        <span>✅ Trusted Since 2022</span>
+        <span>✅ Trusted Since 2010</span>
         <span>✅ 24/7 Emergency Support</span>
       </div>
     </div>

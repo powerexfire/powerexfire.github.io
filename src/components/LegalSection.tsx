@@ -4,6 +4,7 @@ const legalItems = [
   ["GSTIN", "27ABKPY1137F1ZH"],
   ["Proprietor", "Santosh Kumar Doodhnath Yadav"],
   ["Business Type", "Proprietorship"],
+  ["GST Registered Since", "01/07/2017"],
   ["Registered Address", "G/201, Rashmi Garden, Evershine City, Vasai East, Maharashtra 401208"],
 ] as const;
 
