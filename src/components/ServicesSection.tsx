@@ -1,12 +1,14 @@
-import { Flame, Bell, Wrench, ClipboardCheck, Settings, HardHat } from "lucide-react";
+import { Flame, Bell, Wrench, ClipboardCheck, Settings, HardHat, Factory, GraduationCap } from "lucide-react";
 
 const services = [
-  { icon: Flame, title: "Fire Extinguisher Supply & Refilling", desc: "All types of fire extinguishers — CO2, ABC, Water, Foam — with certified refilling services." },
-  { icon: Bell, title: "Fire Alarm Systems", desc: "Advanced fire detection and alarm systems for commercial and residential properties." },
-  { icon: Settings, title: "Fire Safety Installation", desc: "Complete fire safety system installation including sprinklers, hydrants, and suppression systems." },
-  { icon: Wrench, title: "Maintenance Services", desc: "Annual maintenance contracts and regular servicing of all fire safety equipment." },
-  { icon: ClipboardCheck, title: "Safety Inspection & Consulting", desc: "Professional fire safety audits, risk assessment, and compliance consulting." },
-  { icon: HardHat, title: "Safety Equipment Supply", desc: "Personal protective equipment, safety signage, and emergency response gear." },
+  { icon: Flame, title: "Fire Extinguisher Sales & Refilling", desc: "All types — CO2, ABC, Water, Foam — with ISI-certified refilling services and delivery." },
+  { icon: Bell, title: "Fire Alarm & Hydrant Systems", desc: "Advanced detection, alarm panels, hydrant networks, and sprinkler systems for total coverage." },
+  { icon: Settings, title: "Fire Safety Installation", desc: "End-to-end installation of suppression systems, hose reels, sprinklers, and hydrant lines." },
+  { icon: Wrench, title: "AMC (Annual Maintenance Contract)", desc: "Scheduled servicing, pressure testing, and compliance checks to keep your systems ready year-round." },
+  { icon: Factory, title: "Industrial & Factory Safety", desc: "Tailored fire protection for factories, warehouses, and industrial facilities with NBC compliance." },
+  { icon: GraduationCap, title: "Fire Mock Drill & Training", desc: "On-site mock drills, evacuation training, and fire safety awareness programs for your team." },
+  { icon: ClipboardCheck, title: "Safety Inspection & Consulting", desc: "Professional fire audits, risk assessments, NOC assistance, and compliance consulting." },
+  { icon: HardHat, title: "Safety Equipment Supply", desc: "PPE kits, safety signage, emergency lights, and rescue gear for complete workplace safety." },
 ];
 
 const ServicesSection = () => (
@@ -16,16 +18,16 @@ const ServicesSection = () => (
         Our <span className="text-primary">Services</span>
       </h2>
       <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
-        Comprehensive fire protection solutions tailored to your needs.
+        Comprehensive fire protection solutions for residential, commercial, and industrial needs.
       </p>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-6xl mx-auto">
         {services.map((s) => {
           const Icon = s.icon;
           return (
-            <article key={s.title} className="group bg-card border rounded-lg p-6 hover:border-primary/50 hover:shadow-lg transition-all duration-200">
-              <Icon className="w-10 h-10 text-primary mb-4 group-hover:scale-110 transition-transform" aria-hidden="true" />
-              <h3 className="font-heading text-lg font-bold mb-2">{s.title}</h3>
+            <article key={s.title} className="group bg-card border rounded-lg p-5 hover:border-primary/50 hover:shadow-lg transition-all duration-200">
+              <Icon className="w-9 h-9 text-primary mb-3 group-hover:scale-110 transition-transform" aria-hidden="true" />
+              <h3 className="font-heading text-base font-bold mb-1.5">{s.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
             </article>
           );
