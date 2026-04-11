@@ -24,7 +24,7 @@ const AboutSection = () => (
           <h3 className="font-heading text-lg font-bold mb-2">GST Registered</h3>
           <p className="text-sm text-muted-foreground">
             <strong>GSTIN:</strong> 27ABKPY1137F1ZH<br />
-            Registered since 20/12/2022
+            Registered since 01/07/2017
           </p>
         </article>
         <article className="bg-card rounded-lg p-8 text-center shadow-sm border">

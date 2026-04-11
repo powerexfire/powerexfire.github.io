@@ -6,7 +6,7 @@ const reasons = [
   { icon: BadgeCheck, title: "GST Registered Business", desc: "Fully legitimate proprietorship with GSTIN 27ABKPY1137F1ZH — transparent billing guaranteed." },
   { icon: Users, title: "Trained Professionals", desc: "Our technicians are trained in fire safety protocols and equipped with the latest tools." },
   { icon: Headphones, title: "Free Consultation", desc: "Get a no-obligation fire safety audit and expert recommendations for your premises." },
-  { icon: Award, title: "Trusted Since 2022", desc: "Serving Vasai-Virar & Mumbai with reliable fire protection solutions and growing clientele." },
+  { icon: Award, title: "Trusted Since 2010", desc: "Serving Vasai-Virar & Mumbai with reliable fire protection solutions and a growing clientele for over 15 years." },
 ];
 
 const WhyChooseUsSection = () => (

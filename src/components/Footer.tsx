@@ -8,7 +8,7 @@ const Footer = () => (
           <h3 className="font-heading text-xl font-bold mb-3">
             POWEREX<span className="text-primary"> FIRE</span>
           </h3>
-          <p className="text-sm text-secondary-foreground/60 leading-relaxed">Protecting Lives with Reliable Fire Safety Solutions. Serving Vasai-Virar &amp; Mumbai since 2022.</p>
+          <p className="text-sm text-secondary-foreground/60 leading-relaxed">Protecting Lives with Reliable Fire Safety Solutions. Serving Vasai-Virar &amp; Mumbai since 2010.</p>
         </div>
         <div>
           <h4 className="font-heading font-bold mb-3">Quick Links</h4>
