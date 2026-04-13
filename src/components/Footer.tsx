@@ -1,13 +1,17 @@
 import { Facebook, Twitter, MessageCircle, Phone } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-secondary text-secondary-foreground pt-12 pb-6" role="contentinfo">
     <div className="container px-4">
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mb-8">
         <div>
-          <h3 className="font-heading text-xl font-bold mb-3">
-            POWEREX<span className="text-primary"> FIRE</span>
-          </h3>
+          <div className="flex items-center gap-2 mb-3">
+            <img src={logo} alt="Powerex Fire logo" className="h-10 w-auto" />
+            <h3 className="font-heading text-xl font-bold">
+              POWEREX<span className="text-primary"> FIRE</span>
+            </h3>
+          </div>
           <p className="text-sm text-secondary-foreground/60 leading-relaxed">Protecting Lives with Reliable Fire Safety Solutions. Serving Vasai-Virar &amp; Mumbai since 2010.</p>
         </div>
         <div>

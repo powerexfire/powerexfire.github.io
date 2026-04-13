@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { Menu, X, Phone } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -42,7 +43,8 @@ const Navbar = () => {
       </a>
       <nav className={`fixed top-0 left-0 right-0 z-50 border-b border-primary/20 transition-colors duration-300 ${scrolled ? "bg-secondary shadow-lg" : "bg-secondary/95 backdrop-blur-sm"}`} aria-label="Main navigation">
         <div className="container flex items-center justify-between h-16">
-          <a href="#home" className="font-heading text-xl md:text-2xl font-bold text-primary-foreground tracking-wider">
+          <a href="#home" className="flex items-center gap-2 font-heading text-xl md:text-2xl font-bold text-primary-foreground tracking-wider">
+            <img src={logo} alt="Powerex Fire logo" className="h-10 w-auto" />
             POWEREX<span className="text-primary"> FIRE</span>
           </a>
 
