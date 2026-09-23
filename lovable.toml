@@ -1,4 +1,5 @@
 [run]
+install = "echo 'Static site - no dependencies to install'"
 dev = "npx -y serve -l 8080 ."
 build = "echo 'Static site - no build step required'"
 "build:dev" = "echo 'Static site - no build step required'"
